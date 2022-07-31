@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.product-info{
+    height: 50px;
+}
+.product-info h3{
+    line-height: 50px;
+}
+.row{
+    border: 1px solid #ccc;
+}
+.product-footer{
+    background-color: rgb(244, 243, 243);
+    width: 100%;
+
+}
+.table thead{
+    max-width: 100%;
+    background-color: #777d81;
+    color: #ffc107;
+}
